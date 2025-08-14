@@ -1,58 +1,60 @@
 export type SiteConfig = typeof siteConfig;
 
+const base = "/app-react-nextui";
+
 export const siteConfig = {
   name: "App Next.js + HeroUI  🚀",
   description: "Make beautiful websites regardless of your design experience.",
   navItems: [
     {
       label: "Home",
-      href: "/",
+      href: "base/",
     },
     {
       label: "Docs",
-      href: "/docs",
+      href: "base/docs",
     },
     {
       label: "Media",
-      href: "/media",
+      href: "base/media",
     },
     {
       label: "Projects",
-      href: "/projects",
+      href: "base/projects",
     },
     {
       label: "Blog",
-      href: "/blog",
+      href: "base/blog",
     },
     {
       label: "About",
-      href: "/about",
+      href: "base/about",
     },
   ],
   navMenuItems: [
     {
       label: "Home",
-      href: "/",
+      href: "base/",
     },
     {
       label: "Docs",
-      href: "/docs",
+      href: "base/docs",
     },
     {
       label: "Media",
-      href: "/media",
+      href: "base/media",
     },
     {
       label: "Projects",
-      href: "/projects",
+      href: "base/projects",
     },
     {
       label: "Blog",
-      href: "/blog",
+      href: "base/blog",
     },
     {
       label: "About",
-      href: "/about",
+      href: "base/about",
     },
   ],
   links: {
